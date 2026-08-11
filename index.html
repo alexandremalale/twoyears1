@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Nossa Constelação — 2 Anos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="sky"></div>
+
+<section id="hero">
+  <p class="hero-eyebrow">a nossa pequena galáxia</p>
+  <h1 id="heroTitulo">Dois Anos</h1>
+  <p class="hero-sub" id="heroSub">De todas as estrelas, fomos parar à mesma constelação.</p>
+  <div class="counter">
+    <div class="unit"><div class="num" id="cAnos">0</div><div class="lbl">anos</div></div>
+    <div class="unit"><div class="num" id="cMeses">0</div><div class="lbl">meses</div></div>
+    <div class="unit"><div class="num" id="cDias">0</div><div class="lbl">dias</div></div>
+    <div class="unit"><div class="num" id="cHoras">00</div><div class="lbl">horas</div></div>
+    <div class="unit"><div class="num" id="cMin">00</div><div class="lbl">min</div></div>
+    <div class="unit"><div class="num" id="cSeg">00</div><div class="lbl">seg</div></div>
+  </div>
+  <p class="scroll-hint">desce devagarinho ↓</p>
+
+</section>
+
+<section id="historia">
+  <p class="eyebrow">a nossa constelação</p>
+  <h2>Como escrevemos esta história</h2>
+  <div class="timeline">
+    <div class="timeline-track"></div>
+    <div class="timeline-progress" id="progressLine"></div>
+    <div id="momentos"></div>
+  </div>
+</section>
+
+<section id="galeria">
+  <p class="eyebrow">céu de memórias</p>
+  <h2>Os nossos momentos</h2>
+  <div class="galeria-grid" id="galeriaGrid"></div>
+</section>
+
+<section id="video">
+  <p class="eyebrow">em movimento</p>
+  <h2>Alguns segundos que ficaram</h2>
+  <div class="videos-grid" id="videosGrid"></div>
+</section>
+
+<section id="carta">
+  <p class="eyebrow">para ti</p>
+  <h2>Uma carta</h2>
+  <div class="envelope">
+    <div class="seal">❤</div>
+    <button id="abrirCarta">Abrir a carta</button>
+    <div id="cartaTexto"></div>
+  </div>
+</section>
+
+<footer>
+  <p class="hand">feito com muito amor</p>
+  <p id="footerData"></p>
+</footer>
+
+<div id="lightbox">
+  <button class="close" aria-label="Fechar">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+
+<script src="dinamica.js"></script>
+</body>
+</html>

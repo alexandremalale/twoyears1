@@ -66,7 +66,7 @@ const FOTOS = [
 
 // Vídeos — coloca os ficheiros dentro de assets/videos/
 const VIDEOS = [
-  { src: "assets/videos/video1.mp4", legenda: "" },
+  { src: "assets/videos/video1.mp4", legenda: "Deguste de memórias saudáveis para mente." },
 ];
 
 // A carta — cada string do array é um parágrafo

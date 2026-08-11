@@ -1,8 +1,4 @@
-/* ============================================================
-     🖊️  ESTE FICHEIRO TEM UMA SECÇÃO DE CONFIGURAÇÃO EM JAVASCRIPT
-     Procura por "EDITA AQUI" mais abaixo para pores os vossos
-     nomes, datas, fotos, vídeos e a vossa carta.
-     ============================================================ */
+
 
   :root{
     --bg-deep: #0a0e27;
@@ -193,10 +189,14 @@
     outline: 2px solid var(--gold); outline-offset: 3px;
   }
   #cartaTexto{
-    max-height: 0; overflow:hidden; opacity:0; transition: max-height .7s ease, opacity .7s ease, margin .7s ease;
-    text-align: left; font-size: 1.25rem; color: var(--text-light);
+    max-height: 0; overflow:hidden; opacity:0; 
+  transition: max-height .7s ease, opacity .7s ease, margin .7s ease;
+  text-align: left; font-size: 1.25rem; color: var(--text-light);
   }
-  #cartaTexto.aberta{ max-height: 900px; opacity:1; margin-top: 1.6rem; }
+  #cartaTexto.aberta{ max-height: none; 
+  overflow: visible; 
+  opacity:1; 
+  margin-top: 1.6rem;  }
   #cartaTexto p{ margin: 0 0 1rem; }
   .assinatura{ font-family: var(--hand); color: var(--gold); font-size: 1.6rem; text-align:right; }
 

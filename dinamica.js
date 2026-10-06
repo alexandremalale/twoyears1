@@ -9,7 +9,7 @@ document.getElementById('heroSub').textContent =
   `${NOME_1} & ${NOME_2} — de todas as estrelas, fomos parar à mesma constelação.`;
 
 // Data em que começaram a namorar (ano, mês [0-11], dia)
-const DATA_INICIO = new Date(2024, 10, 18); // exemplo: 7 de agosto de 2024
+const DATA_INICIO = new Date(2024, 9, 18); // exemplo: 7 de agosto de 2024
 
 // Os vossos momentos, por ordem cronológica
 const MOMENTOS = [
